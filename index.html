@@ -12,7 +12,7 @@
         }
 
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-family: Arial, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             display: flex;
@@ -175,7 +175,7 @@
 <body>
     <div class="container">
         <div class="main-content">
-            <div class="emoji"></div>
+            <div class="emoji">😅</div>
             <h1>WKWKWKWK MAAP YA NDA</h1>
             <div class="message">
                 <strong>maap yh</strong>
@@ -324,7 +324,7 @@
                 setTimeout(() => {
                     const heart = document.createElement('div');
                     heart.className = 'heart';
-                    heart.textContent = ['😁', '😏', '🙄', '🥱', '😵‍💫'][Math.floor(Math.random() * 5)];
+                    heart.textContent = ['💖', '💕', '💗', '💝', '❤️'][Math.floor(Math.random() * 5)];
                     heart.style.left = Math.random() * 100 + 'vw';
                     heart.style.animationDelay = Math.random() * 2 + 's';
                     heartsContainer.appendChild(heart);
